@@ -1,0 +1,212 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #fefaf6;
+  height: 60px;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  color: rgb(158, 153, 151); /* Updated text color to black */
+  font-family: "Schibsted Grotesk";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: right;
+  text-decoration: none; /* Removed underline */
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #333;
+}
+
+  .container
+  {
+  
+    overflow-wrap:break-word ;
+    white-space: pre-wrap;
+    background: none;
+    max-width: 100;
+    max-height: 50%;
+    color: rgb(153, 152, 152);
+    font-family: "Schibsted Grotesk";
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    
+  }
+  .container h5{
+    margin-top: 35px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    background: none;
+    width: 100%;
+    height: 70%;
+    color:rgb(244, 204, 117);
+    font-family:"Schibsted Grotesk";
+    font-size: 13px;
+    line-height: 2%;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .container h1{
+    
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    background: none;
+    max-width: 100%;
+    max-height: 70%;
+    color: black;
+    font-family: "IBM Plex Serif";
+    font-size: 50px;
+    line-height: 105.263%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    
+  }
+
+.container .row
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.image
+{
+    height: 450px; 
+    width: 500px;
+    padding: 0;
+}
+.clock
+{
+    align-items: center;
+}
+button
+{
+    
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    color: #e6e5e5;
+    background-color: #090909;
+    border-radius: 50px;
+}
+.container .row .col .h4
+{
+    color: #f4cc75;
+    
+    text-align: center;
+}
+.join .row
+{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.join .col
+{
+    color: #848183;
+    flex-basis: 25%;
+    padding: 20px 20px 20px 20px;
+}
+.join .col h5
+{ 
+    /*font-size: 15px "Schibsted Grotesk", "Helvetica Neue", "Helvetica";*/
+    width: fit-content;
+    margin-bottom: 0;
+    position: relative;
+    color: #323031;
+}
+.join .logo
+{
+    width: 100px;
+}
+footer
+{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    background-color: black;
+    padding: 50px 0px 30px 0px;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row
+{
+    
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col
+{
+    color: #a9a8a8;
+    flex-basis: 25%;
+    padiing: 10px;
+}
+
+.logo
+{
+    width: 60px;
+    margin-bottom: 0;
+}
+.col h4
+{ 
+    font-size: 15px "Schibsted Grotesk", "Helvetica Neue", "Helvetica";
+    width: fit-content;
+    margin-bottom: 12px;
+    position: relative;
+    color: #a9a8a8;
+}
+ul li 
+{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a
+{   
+    
+    text-decoration: none;
+    color: #a9a8a8;
+}
